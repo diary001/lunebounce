@@ -4,9 +4,11 @@ For any questions please join the Moonbounce Elites Discord server: https://disc
 
 ## BOTH OF THESE THEMES MUST BE INSTALLED TOGETHER
 In order to use the webapp theme you must install [Stylus](https://add0n.com/stylus.html). (downloads are in the top right corner)
+
 You can install the webapp theme for moonbounce.gg here: https://userstyles.world/style/12937/lunebounce-3
 
 In order to use the webapp theme you must install [Tampermonkey](https://www.tampermonkey.net/).
+
 You can install the extension theme for Moonbounce here: https://greasyfork.org/en/scripts/490018-lunebounce-theme
 
 # FAQ
