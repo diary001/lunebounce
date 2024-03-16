@@ -3,10 +3,11 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.0
+// @version      1.0.1
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
-// @downloadURL  
+// @downloadURL  https://github.com/diary001/lunebounce/raw/main/lunebounce.user.js
+// @updateURL    https://github.com/diary001/lunebounce/raw/main/lunebounce.user.js
 // @match        *://*/*
 // @icon         https://framerusercontent.com/images/iuVZmsE2sifPExZXNrETQrDkU.png
 // @grant        none
