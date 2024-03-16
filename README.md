@@ -9,7 +9,7 @@ You can install the webapp theme for moonbounce.gg here: https://userstyles.worl
 
 
 
-In order to use the webapp theme you must install [Tampermonkey](https://www.tampermonkey.net/).
+In order to use the extension theme you must install [Tampermonkey](https://www.tampermonkey.net/).
 
 You can install the extension theme for Moonbounce here: https://greasyfork.org/en/scripts/490018-lunebounce-theme
 
