@@ -3,14 +3,14 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.2
+// @version      1.0.3
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
-// @downloadURL  https://github.com/diary001/lunebounce/raw/main/lunebounce.user.js
-// @updateURL    https://github.com/diary001/lunebounce/raw/main/lunebounce.user.js
 // @match        *://*/*
 // @icon         https://framerusercontent.com/images/iuVZmsE2sifPExZXNrETQrDkU.png
 // @grant        none
+// @downloadURL https://update.greasyfork.org/scripts/490018/Lunebounce%20Theme.user.js
+// @updateURL https://update.greasyfork.org/scripts/490018/Lunebounce%20Theme.meta.js
 // ==/UserScript==
 
 
@@ -18,8 +18,6 @@
     "use strict";
 
     function checkPresence() {
-      // do ur document.getElementById etc
-      // return if it exists
       return (
         document.getElementById(
           "moonbounce-ext-container-mbheeaapbjpckahhciogfdodofjjldem"
@@ -50,12 +48,6 @@
         "brightness(0) saturate(100%) invert(86%) sepia(9%) saturate(2201%) hue-rotate(171deg) brightness(107%) contrast(101%)"
       );
 
-        // var link = document.createElement('link');
-        // link.setAttribute('rel', 'stylesheet');
-        // link.setAttribute('type', 'text/css');
-        // link.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Varela+Round');
-        // document.head.appendChild(link);
-
       const webApp = document.querySelector("body");
 
         const shadowRoot = document.querySelector(
@@ -68,7 +60,6 @@
         )?.shadowRoot.querySelector("#MOONBOUNCE\\.PORTAL");
 
     if (!moonbouncePortal) {
-        // If moonbouncePortal is not found, try again after a short delay
         setTimeout(injectCSS, 500);
         return;
     }
@@ -601,16 +592,6 @@
       });
       shadowRoot.append(styleElement72);
 
-      // const styleElement71 = Object.assign(document.createElement("STYLE"), {
-      //   textContent: `._base_15xaj_1._small_15xaj_22, _base_pomo5_1, ._anchor_iph8a_1._small_iph8a_30, ._anchor_iph8a_1._medium_iph8a_45, ._anchor_iph8a_1._large_iph8a_61, ._anchor_iph8a_1._xlarge_iph8a_77, ._anchor_iph8a_1._xxlarge_iph8a_93, ._base_1etwz_1, ._base_1jt5b_1, ._h1_gfeel_1, ._h1_gfeel_1._character-creation_gfeel_22, ._p_7k6zl_1._small_7k6zl_6, ._p_7k6zl_1._medium_7k6zl_19, ._p_7k6zl_1._large_7k6zl_35, ._base_1etyk_1, ._base_1p7by_1, ._base_1yp6k_1, ._base_10uj4_1, ._base_dmz94_1, ._base_1s2dn_1, ._base_me7ev_1, ._base_1ar6i_1, ._h1_wlk5u_1, ._h1_wlk5u_1._character-creation_wlk5u_23, ._p_1hyge_1, ._p_1hyge_1._small_1hyge_18, ._p_1hyge_1._medium_1hyge_31, ._p_1hyge_1._large_1hyge_47, ._base_w7k20_1, ._base_kc6yf_1, ._base_935db_1, ._base_r51nd_1, ._base_r51nd_1 p:nth-child(2), ._base_157fv_1, ._base_h9f2n_1, ._base_1p6ux_1 ._title_1p6ux_4, ._base_1p6ux_1 ._subtitle_1p6ux_18, ._base_1p6ux_1 ._link_1p6ux_33, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55, ._base_1p6ux_1 ._action_1p6ux_70, ._base_4l9yj_1, ._button_eftbh_1._small_eftbh_83, ._button_eftbh_1._medium_eftbh_96, ._button_eftbh_1._large_eftbh_112, ._button_eftbh_1._xlarge_eftbh_128, ._button_eftbh_1._xxlarge_eftbh_144, ._base_1oq08_1, ._container_k54cr_1, ._alertContainer_pefb0_1, ._label_i08de_42, ._container_1eu90_1, ._base_12a23_1, ._base_1g3u4_1, ._base_1t9h7_1, ._base_11tkr_1, ._base_awo8o_1, ._content_awo8o_28, ._container_1unpw_1 ._content_1unpw_17, ._container_1unpw_1 ._content_1unpw_17>div:first-of-type, ._container_1unpw_1 button, ._base_n2jki_1, ._base_1blj3_1, ._display_name_1uap3_6, ._message_1uap3_23, ._display_name_fmbab_13, ._message_fmbab_29, ._base_1rnpn_1, ._display_name_1pfp4_14, ._base_12jkr_1, ._base_irauo_1, ._text-xs_128i6_1, ._text-xs_128i6_1._medium_128i6_15, ._text-xs_128i6_1._semibold_128i6_30, ._text-xs_128i6_1._bold_128i6_45, ._text-sm_128i6_60, ._text-sm_128i6_60._medium_128i6_15, ._text-sm_128i6_60._semibold_128i6_30, ._text-sm_128i6_60._bold_128i6_45, ._text-md_128i6_111, ._text-md_128i6_111._medium_128i6_15, ._text-md_128i6_111._semibold_128i6_30, ._text-md_128i6_111._bold_128i6_45, ._text-lg_128i6_170, ._text-lg_128i6_170._medium_128i6_15, ._text-lg_128i6_170._semibold_128i6_30, ._text-lg_128i6_170._bold_128i6_45, ._text-xl_128i6_229, ._text-xl_128i6_229._medium_128i6_15, ._text-xl_128i6_229._semibold_128i6_30, ._text-xl_128i6_229._bold_128i6_45, ._display-xs_128i6_289, ._display-xs_128i6_289._medium_128i6_15, ._display-xs_128i6_289._semibold_128i6_30, ._display-xs_128i6_289._bold_128i6_45, ._display-sm_128i6_348, ._display-sm_128i6_348._medium_128i6_15, ._display-sm_128i6_348._semibold_128i6_30, ._display-sm_128i6_348._bold_128i6_45, ._display-md_128i6_407, ._display-md_128i6_407._medium_128i6_15, ._display-md_128i6_407._semibold_128i6_30, ._display-md_128i6_407._bold_128i6_45, ._display-lg_128i6_466, ._display-lg_128i6_466._medium_128i6_15, ._display-lg_128i6_466._semibold_128i6_30, ._display-lg_128i6_466._bold_128i6_45, ._display-xl_128i6_525, ._display-xl_128i6_525._medium_128i6_15, ._display-xl_128i6_525._semibold_128i6_30, ._display-xl_128i6_525._bold_128i6_45, ._display-2xl_128i6_584, ._display-2xl_128i6_584._medium_128i6_15, ._display-2xl_128i6_584._semibold_128i6_30, ._display-2xl_128i6_584._bold_128i6_45, ._base_1hnq6_1, ._base_1enru_1, ._base_1b9zj_1, ._base_15xaj_1._xs_15xaj_6 {
-      //                 font-family: "Varela Round", sans-serif;
-      //                 font-weight: 400;
-      //             }`,
-      // });
-      // shadowRoot.append(styleElement71);
-
-      // setTimeout(runner, 500);
-
         const observer = new MutationObserver(() => {
             const lune = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_fmbab_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
             lune.forEach(node => {
@@ -624,20 +605,15 @@
             const lune2 = shadowRoot.querySelectorAll(":not(iframe):not(script)");
             lune2.forEach(node => {
                 if (node.textContent.includes("lunebounce :3")) {
-                    // node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
-                    // node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
-                    // node.style.webkitTextFillColor = "transparent";
                 }
             });
 
             const lune3 = webApp.querySelectorAll("._neutral-700_128i6_727, ._base_irauo_1");
             lune3.forEach(node => {
                 if (node.textContent.includes("lunebounce :3")) {
-                    //node.style.webkitBackgroundClip = "text";
                     node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
                     node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
                     node.style.webkitTextFillColor = "transparent";
-                    //node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
                 }
             });
 
@@ -653,9 +629,6 @@
             const oraithe2 = shadowRoot.querySelectorAll(":not(iframe):not(script)");
             oraithe2.forEach(node => {
                 if (node.textContent.includes("Óraithe")) {
-                    // node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
-                    // node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
-                    // node.style.webkitTextFillColor = "transparent";
                 }
             });
 
@@ -681,9 +654,6 @@
             const wyv2 = shadowRoot.querySelectorAll(":not(iframe):not(script)");
             wyv2.forEach(node => {
                 if (node.textContent.includes("wyv")) {
-                    // node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
-                    // node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
-                    // node.style.webkitTextFillColor = "transparent";
                 }
             });
 
