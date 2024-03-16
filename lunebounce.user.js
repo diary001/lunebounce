@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.1
+// @version      1.0.2
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @downloadURL  https://github.com/diary001/lunebounce/raw/main/lunebounce.user.js
