@@ -2,9 +2,10 @@
 This is the first theme for Moonbounce! I spent a few months working on this to make sure everything was perfected. This theme was created solely by me, so please do not message the Moonbonuce team for support.
 For any questions please join the Moonbounce Elites Discord server: https://discord.gg/mbe
 
-You can install the webapp theme for moonbounce.gg here: Stylus link coming soon...
+## BOTH OF THESE THEMES MUST BE INSTALLED TOGETHER
+You can install the webapp theme for moonbounce.gg here: https://userstyles.world/style/12937/lunebounce-3
 
-You can install the extension theme for Moonbounce here: Tampermonkey link coming soon...
+You can install the extension theme for Moonbounce here: https://greasyfork.org/en/scripts/490018-lunebounce-theme
 
 # FAQ
 ## How do I modify the theme?
