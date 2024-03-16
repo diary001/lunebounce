@@ -1,5 +1,6 @@
 # lunebounce
 This is the first theme for Moonbounce! I spent a few months working on this to make sure everything was perfected. This theme was created solely by me, so please do not message the Moonbonuce team for support.
+
 For any questions please join the Moonbounce Elites Discord server: https://discord.gg/mbe.
 
 ## BOTH OF THESE THEMES MUST BE INSTALLED TOGETHER
