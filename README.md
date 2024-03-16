@@ -3,7 +3,6 @@ This is the first theme for Moonbounce! I spent a few months working on this to 
 For any questions please join the Moonbounce Elites Discord server: https://discord.gg/mbe
 
 You can install the webapp theme for moonbounce.gg here: Stylus link coming soon...
-
 You can install the extension theme for Moonbounce here: Tampermonkey link coming soon...
 
 # FAQ
