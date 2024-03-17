@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.3
+// @version      1.0.4
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
@@ -597,7 +597,7 @@
             lune.forEach(node => {
                 if (node.textContent.includes("lunebounce :3")) {
                     node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
-                    node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
+                    node.style.textShadow = "0 0 1px #fff, 0 0 3px #aef0ff, 0 0 5px #aef0ff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
                     node.style.webkitTextFillColor = "transparent";
                 }
             });
@@ -612,7 +612,7 @@
             lune3.forEach(node => {
                 if (node.textContent.includes("lunebounce :3")) {
                     node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
-                    node.style.textShadow = "0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
+                    node.style.textShadow = "0 0 1px #fff, 0 0 3px #aef0ff, 0 0 5px #aef0ff, 0 0 8px #aef0ff, 0 0 10px #aef0ff, 0 0 12px #aef0ff";
                     node.style.webkitTextFillColor = "transparent";
                 }
             });
@@ -675,16 +675,16 @@
 
     async function runner() {
       const timeStart = performance.now();
-      console.log("%cAttempting to load shadow-root...", "background: #44515a; color: #aef0ff; font-size: x-large");
+      //console.log("%cAttempting to load shadow-root...", "background: #44515a; color: #aef0ff; font-size: x-large");
       let exists = checkPresence();
       if (!exists) return setTimeout(runner, 500);
       const timeEnd = performance.now();
-      console.log("%cShadow-root took " + (timeEnd - timeStart) + "ms to load.", "background: #44515a; color: #aef0ff; font-size: x-large");
+      //console.log("%cShadow-root took " + (timeEnd - timeStart) + "ms to load.", "background: #44515a; color: #aef0ff; font-size: x-large");
 
       // inject css
-      console.log("%cInjecting CSS...", "background: #44515a; color: #aef0ff; font-size: x-large");
+      //console.log("%cInjecting CSS...", "background: #44515a; color: #aef0ff; font-size: x-large");
       injectCSS();
-      console.log("%cCSS injected.", "background: #44515a; color: #aef0ff; font-size: x-large");
+      //console.log("%cCSS injected.", "background: #44515a; color: #aef0ff; font-size: x-large");
       setTimeout(() => console.log("%c((made with <3 by lune))", "background: #44515a; color: #aef0ff; font-size: x-large; font-style: italic"), 1200);
     }
 
