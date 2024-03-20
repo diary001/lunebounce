@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.5
+// @version      1.0.6
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
@@ -558,7 +558,7 @@
 
       const styleElement69 = Object.assign(document.createElement("STYLE"), {
         textContent: `._notif_1htaw_79 {
-                      background-color: hex_code;
+                      background-color: var(--lune-accent);
                   }`,
       });
       shadowRoot.append(styleElement69);
