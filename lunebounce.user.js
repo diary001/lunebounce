@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.7
+// @version      1.0.8
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
@@ -598,6 +598,15 @@
                   }`,
       });
       shadowRoot.append(styleElement73);
+
+      const styleElement74 = Object.assign(document.createElement("STYLE"), {
+        textContent: `._new_chat_indicator_18nkb_142 {
+                      background-color: var(--lune-accent-alpha);
+                      color: var(--lune-accent-dark)
+                      border: 2px solid var(--lune-accent-alpha)
+                  }`,
+      });
+      shadowRoot.append(styleElement74);
 
         const observer = new MutationObserver(() => {
             const lune = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_1cunu_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
