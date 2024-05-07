@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.8
+// @version      1.0.9
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
@@ -602,8 +602,8 @@
       const styleElement74 = Object.assign(document.createElement("STYLE"), {
         textContent: `._new_chat_indicator_18nkb_142 {
                       background-color: var(--lune-accent-alpha);
-                      color: var(--lune-accent-dark)
-                      border: 2px solid var(--lune-accent-alpha)
+                      color: var(--lune-accent-dark);
+                      border: 2px solid var(--lune-accent-alpha);
                   }`,
       });
       shadowRoot.append(styleElement74);
