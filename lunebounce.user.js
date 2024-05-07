@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.6
+// @version      1.0.7
 // @description  ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
@@ -151,7 +151,7 @@
       shadowRoot.append(styleElement13);
 
       const styleElement14 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._base_1jfm3_1 {
+        textContent: `._base_1jhq3_1 {
                       background-color: var(--lune-secondary);
                       border: 2px solid var(--lune-primary);
                   }`,
@@ -159,7 +159,7 @@
       shadowRoot.append(styleElement14);
 
       const styleElement15 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_mdpvo_19 {
+        textContent: `._middle_chat_18nkb_44 {
                       background-color: var(--lune-secondary);
                   }`,
       });
@@ -229,7 +229,7 @@
       shadowRoot.append(styleElement24);
 
       const styleElement25 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._line_mdpvo_99 {
+        textContent: `._line_18nkb_99 {
                       background: var(--lune-primary);
                   }`,
       });
@@ -286,21 +286,21 @@
       shadowRoot.append(styleElement32);
 
       const styleElement33 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_mdpvo_19::-webkit-scrollbar {
+        textContent: `._middle_chat_18nkb_44::-webkit-scrollbar {
                       background-color: var(--lune-secondary);
                   }`,
       });
       shadowRoot.append(styleElement33);
 
       const styleElement34 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_mdpvo_19::-webkit-scrollbar-thumb {
+        textContent: `._middle_chat_18nkb_44::-webkit-scrollbar-thumb {
                       background: linear-gradient(180deg,var(--lune-accent) 9.35%,var(--lune-tertiary) 91.32%);
                   }`,
       });
       shadowRoot.append(styleElement34);
 
       const styleElement35 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_mdpvo_19::-webkit-scrollbar-track {
+        textContent: `._middle_chat_18nkb_44::-webkit-scrollbar-track {
                       background-color: var(--lune-tertiary);
                   }`,
       });
@@ -379,21 +379,21 @@
       shadowRoot.append(styleElement44);
 
       const styleElement45 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_chat_mdpvo_44 {
+        textContent: `._middle_18nkb_19 {
                       background-color: transparent;
                   }`,
       });
       shadowRoot.append(styleElement45);
 
       const styleElement46 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._display_name_fmbab_13 {
+        textContent: `._display_name_1cunu_13 {
                       color: var(--lune-accent);
                   }`,
       });
       shadowRoot.append(styleElement46);
 
       const styleElement47 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._message_fmbab_29 {
+        textContent: `._message_1cunu_29 {
                       color: var(--lune-accent-light);
                   }`,
       });
@@ -536,21 +536,21 @@
       shadowRoot.append(styleElement65);
 
       const styleElement66 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_chat_mdpvo_44::-webkit-scrollbar {
+        textContent: `._middle_18nkb_19::-webkit-scrollbar {
                       background-color: var(--lune-secondary);
                   }`,
       });
       shadowRoot.append(styleElement66);
 
       const styleElement67 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_chat_mdpvo_44::-webkit-scrollbar-thumb {
+        textContent: `._middle_18nkb_19::-webkit-scrollbar-thumb {
                       background: linear-gradient(180deg,var(--lune-accent) 9.35%,var(--lune-tertiary) 91.32%);
                   }`,
       });
       shadowRoot.append(styleElement67);
 
       const styleElement68 = Object.assign(document.createElement("STYLE"), {
-        textContent: `._middle_chat_mdpvo_44::-webkit-scrollbar-track {
+        textContent: `._middle_18nkb_19::-webkit-scrollbar-track {
                       background-color: var(--lune-tertiary);
                   }`,
       });
@@ -600,7 +600,7 @@
       shadowRoot.append(styleElement73);
 
         const observer = new MutationObserver(() => {
-            const lune = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_fmbab_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
+            const lune = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_1cunu_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
             lune.forEach(node => {
                 if (node.textContent.includes("lunebounce :3")) {
                     node.style.backgroundImage = "url('https://i.ibb.co/47v9bVs/U0hpDMb.gif')";
@@ -624,7 +624,7 @@
                 }
             });
 
-            const oraithe = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_fmbab_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
+            const oraithe = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_1cunu_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
             oraithe.forEach(node => {
                 if (node.textContent.includes("Óraithe")) {
                     node.style.background = "-webkit-linear-gradient(left, #F37607, #07DAF3)";
@@ -648,7 +648,7 @@
                 }
             });
 
-            const wyv = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_fmbab_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
+            const wyv = moonbouncePortal.querySelectorAll("._base_15xaj_1._small_15xaj_22, ._base_irauo_1, ._display_name_1cunu_13, ._display_name_1pfp4_14, ._base_1p6ux_1 ._username_1p6ux_54, ._base_1p6ux_1 ._website_1p6ux_55");
             wyv.forEach(node => {
                 if (node.textContent.includes("wyv")) {
                     node.style.background = "-webkit-radial-gradient(center, #000, #000)";
