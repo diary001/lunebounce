@@ -3,7 +3,7 @@
 // @namespace    https://github.com/diary001/lunebounce
 // @supportURL   https://discord.gg/mbe
 // @license      MIT
-// @version      1.0.9
+// @version      1.0.10
 // @description  This is the first theme for Moonbounce! I spent a few months working on this to make sure everything was perfected. This theme was created solely by me, so please do not message the Moonbonuce team for support. ((made with <3 by lune))
 // @author       lune / linktr.ee/moon
 // @match        *://*/*
